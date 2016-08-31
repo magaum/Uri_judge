@@ -1,8 +1,11 @@
 #include <stdio.h>
-float main(){
-	float area, raio;
-		scanf("%f", &raio);
-			area = 3.14159 * (raio * raio);
-		printf("A=%.4f\n", area);
-	return 0;
+
+int main() {
+        
+        float raio;
+        double area, II = 3.14159;
+                scanf("%.2f", &raio);
+                        area = II * (raio * raio);
+                printf("A=%.4f\n", area);
+        return 0;
 }
