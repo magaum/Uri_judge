@@ -1,11 +1,11 @@
 #include <stdio.h>
 
 int main() {
-        
-        float raio;
-        double area, II = 3.14159;
-                scanf("%.2f", &raio);
-                        area = II * (raio * raio);
+        double area, raio, tt = 3.14159;
+                scanf("%lf", & raio);
+//O lf é um tipo de leitor mais preciso que o f e o que é funcional com a atribuição double 
+                        area = tt * (raio * raio);
                 printf("A=%.4f\n", area);
         return 0;
+
 }
