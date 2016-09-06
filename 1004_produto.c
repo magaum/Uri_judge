@@ -10,3 +10,4 @@ int main() {
 		printf("PROD = %d\n", PROD);
 	return 0;
 }
+//Accepted
