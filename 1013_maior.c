@@ -2,11 +2,20 @@
 
 int main () {
   
-  int maiorAB, a,b,abs;
-    scanf("%d %d %d", &a ,&b ,&abs);
-      maiorAB = (a+b+abs(a-b))/2;
-    printf ("%d eh o maior", maiorAB);
-  return 0;
+	int maiorAC,maiorAB, maiorBC, a,b,c;
+		scanf("%d %d %d", &a ,&b, &c);
+
+			if (a > b && a > c) {
+				maiorAB = a;
+}
+			if (b > a && b > c) {
+				maiorAB = b;
+}
+			if (c > a && c > b) {
+				maiorAB = c;
 }
 
-// 	Compilation error 
+		printf ("%d eh o maior\n", maiorAB);
+	return 0;
+}
+//	Accepted
