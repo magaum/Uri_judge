@@ -12,3 +12,6 @@ int main () {
 		printf ("%.3f km/l\n", km);
 	return 0;
 }
+
+
+//Accepted 
