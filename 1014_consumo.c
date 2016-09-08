@@ -9,6 +9,6 @@ int main () {
 
 			km = X/Y;
 
-		printf ("%.3f km/l" %km);
+		printf ("%.3f km/l\n" %km);
 	return 0;
 }
