@@ -17,13 +17,13 @@ int main () {
 			while (tempo_digitado => 3600){
 				acumulador = tempo_digitado - 3600;
 				tempo_digitado = acumulador;
-				tempo_horas ++;
+				tempo_horas += 1;
 		
 			}
 			while (tempo_digitado => 60) {
 				acumulador = tempo_digitado - 60;
 				tempo_digitado = acumulador;
-				tempo_minutos ++;
+				tempo_minutos += 1;
 				
 			}
 
