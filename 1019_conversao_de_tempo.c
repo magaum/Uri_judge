@@ -1,12 +1,11 @@
 #include <stdio.h>
 
-main () {
+int main () {
 
-	int tempo_digitado;
+	int tempo_digitado, acumulador;
 	int tempo_horas = 0;
 	int tempo_minutos = 0;
 	int tempo_segundos = 0;
-	int acumulador = 0;
 
 		scanf("%d", & tempo_digitado);
 
