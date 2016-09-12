@@ -20,6 +20,8 @@ main () {
 				tempo_digitado = acumulador;
 				tempo_minutos += 1;
 }			tempo_segundos = tempo_digitado;
-		printf ("%d:%d:%d", tempo_horas, tempo_minutos, tempo_segundos);
+		printf ("%d:%d:%d\n", tempo_horas, tempo_minutos, tempo_segundos);
 	return 0;
 }
+
+//Accepted
