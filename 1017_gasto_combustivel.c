@@ -7,7 +7,6 @@ int main () {
 
 		scanf("%d",& tempo); 
 		scanf("%d",& velocidade);
-
 			distancia = (tempo * velocidade) / 12.0;
 		printf("%.4f\n", distancia);
 	return 0;
