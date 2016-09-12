@@ -18,9 +18,8 @@ main () {
 			while (tempo_digitado > 60) {
 				acumulador = tempo_digitado - 60;
 				tempo_digitado = acumulador;
-				tempo_minutos ++;
-				tempo_segundos = tempo_digitado;
-}
+				tempo_minutos += 1;
+}			tempo_segundos = tempo_digitado;
 		printf ("%d:%d:%d", tempo_horas, tempo_minutos, tempo_segundos);
 	return 0;
 }
