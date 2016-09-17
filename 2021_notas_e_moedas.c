@@ -62,7 +62,7 @@ int main () {
 				valor = acumulador;
 				
 				}
-			for (contador0_10; valor >= 0.10; contador0_10 ++) {
+			for (contador0_10 = 0; valor >= 0.10; contador0_10 ++) {
 				acumulador = valor - 0.10;
 				valor = acumulador;
 				
