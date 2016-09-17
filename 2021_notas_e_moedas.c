@@ -2,85 +2,83 @@
 
 int main () {
 
-	float valor, acumulador;
-	float contador100 = 0;
-	float contador50 = 0;
-	float contador20 = 0;
-	float contador10 = 0;
-	float contador5 =  0;
-	float contador2 = 0;
-	float contador1 = 0;
-	float contador0_50 = 0;
-	float contador0_25 = 0; 
-	float contador0_10 = 0; 
-	float contador0_05 = 0;
-	float contador0_01 = 0;
-		scanf("%f", & valor);
+	float valor;
+	float acumulador;
+	float contador100;
+	float contador50;
+	float contador20;
+	float contador10;
+	float contador5;
+	float contador2;
+	float contador1;
+	float contador0_50;
+	float contador0_25; 
+	float contador0_10; 
+	float contador0_05;
+	float contador0_01;
+		scanf("%.2f", & valor);
 
-			while (valor >= 100) {
-				acumulador = valor - 100;
+			for (contador100 = 0; valor >= 100.0; contador100 ++) {
+				acumulador = valor - 100.0;
 				valor = acumulador;
-				contador100 += 1;
+				
 				}
-			while (valor >= 50) {
-				acumulador = valor - 50;
-		               	valor = acumulador;
-				contador50 += 1;
-				}
-			while (valor >= 20) {
-				acumulador = valor - 20;
-				valor = acumulador;
-				contador20 += 1;
-				}
-			while (valor >= 10) {
-				acumulador = valor - 10;
-			       	valor = acumulador;
-				contador10 += 1;
-				}
-			while (valor >= 5) {
-				acumulador = valor - 5;
-				valor = acumulador;
-				contador5 += 1;
+			for (contador50 = 0; valor >= 50.0; contador50 ++) {
+				acumulador = valor - 50.0;
+               			valor = acumulador;
 
 				}
-			while (valor >= 2) {
-				acumulador = valor - 2;
-		               	valor = acumulador;
-				contador2 += 1;
+			for (contador20 = 0; valor >= 20.0; contador20 ++) {
+				acumulador = valor - 20.0;
+				valor = acumulador;
+				
 				}
-			while (valor >= 1) {
-				acumulador = valor - 1;
-		                valor = acumulador;
-				contador1 += 1;
+			for (contador10 = 0; valor >= 10.0; contador10 ++) {
+				acumulador = valor - 10.0;
+				valor = acumulador;
+				
 				}
-			while (valor >= 0.50) {
-				acumulador = valor - 1;
-		                valor = acumulador;
-				contador0_50 += 1;
+			for (contador5 = 0; valor >= 5.0; contador5 ++) {
+				acumulador = valor - 5.0;
+				valor = acumulador;
+
 				}
-			while (valor >= 0.25) {
-				acumulador = valor - 1;
-		                valor = acumulador;
-				contador0_25 += 1;
+			for (contador2 = 0; valor >= 2.0; contador2 ++) {
+				acumulador = valor - 2.0;
+		      	
 				}
-			while (valor >= 0.10) {
-				acumulador = valor - 1;
-		                valor = acumulador;
-				contador0_10 += 1;
+			for (contador1 = 0; valor >= 1.0; contador1 ++) {
+				acumulador = valor - 1.0;
+				valor = acumulador;
+				
 				}
-			while (valor >= 0.05) {
-				acumulador = valor - 1;
-		                valor = acumulador;
-				contador0_05 += 1;
+			for (contador0_50 = 0; valor >= 0.50; contador0_50 ++) {
+				acumulador = valor - 0.50;
+				valor = acumulador;
+				
 				}
-			while (valor >= 0.01) {
-				acumulador = valor - 1;
-		                valor = acumulador;
-				contador0_01 += 1;
+			for (contador0_25 = 0; valor >= 0.25; contador0_25 ++) {
+				acumulador = valor - 0.25;
+				valor = acumulador;
+				
+				}
+			for (contador0_10; valor >= 0.10; contador0_10 ++) {
+				acumulador = valor - 0.10;
+				valor = acumulador;
+				
+				}
+			for (contador0_05 = 0; valor >= 0.05; contador0_05 ++) {
+				acumulador = valor - 0.05;
+		    		valor = acumulador;
+				
+				}
+			for (contador0_01 = 0; valor >= 0.01; contador0_01 ++) {
+				acumulador = valor - 0.01;
+		    valor = acumulador;
+				
 				}
 		printf ("NOTAS:\n%d nota(s) de R$ 100,00\n%d nota(s) de R$ 50,00\n%d nota(s) de R$ 20,00\n%d nota(s) de R$ 10,00\n%d nota(s) de R$ 5,00\n%d nota(s) de R$ 2,00\nMOEDAS:\n%d MOEDAS(s) de R$ 1,00\n%d MOEDAS(s) de R$ 0,50\n%d MOEDAS(s) de R$ 0,25\n%d MOEDAS(s) de R$ 0,10\n%d MOEDAS(s) de R$ 0,05\n%d MOEDAS(s) de R$ 0,01\n", contador100, contador50, contador20, contador10, contador5, contador2, contador1, contador0_50, contador0_25, contador0_10, contador0_05, contador0_01);	
 	return 0;
 }
 
 //Wrong answer (90%)
-
