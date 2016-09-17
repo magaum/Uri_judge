@@ -2,21 +2,9 @@
 
 int main () {
 
-	float valor;
-	float acumulador;
-	float contador100;
-	float contador50;
-	float contador20;
-	float contador10;
-	float contador5;
-	float contador2;
-	float contador1;
-	float contador0_50;
-	float contador0_25; 
-	float contador0_10; 
-	float contador0_05;
-	float contador0_01;
-		scanf("%.2f", & valor);
+	double valor;
+	float acumulador, contador100, contador50, contador20, contador10, contador5, contador2, contador1, contador0_50, contador0_25, contador0_10, contador0_05, contador0_01;
+		scanf("%lf", & valor);
 
 			for (contador100 = 0; valor >= 100.0; contador100 ++) {
 				acumulador = valor - 100.0;
@@ -74,11 +62,11 @@ int main () {
 				}
 			for (contador0_01 = 0; valor >= 0.01; contador0_01 ++) {
 				acumulador = valor - 0.01;
-		    valor = acumulador;
+		    		valor = acumulador;
 				
 				}
-		printf ("NOTAS:\n%d nota(s) de R$ 100,00\n%d nota(s) de R$ 50,00\n%d nota(s) de R$ 20,00\n%d nota(s) de R$ 10,00\n%d nota(s) de R$ 5,00\n%d nota(s) de R$ 2,00\nMOEDAS:\n%d MOEDAS(s) de R$ 1,00\n%d MOEDAS(s) de R$ 0,50\n%d MOEDAS(s) de R$ 0,25\n%d MOEDAS(s) de R$ 0,10\n%d MOEDAS(s) de R$ 0,05\n%d MOEDAS(s) de R$ 0,01\n", contador100, contador50, contador20, contador10, contador5, contador2, contador1, contador0_50, contador0_25, contador0_10, contador0_05, contador0_01);	
+		printf ("NOTAS:\n%d nota(s) de R$ 100.00\n%d nota(s) de R$ 50.00\n%d nota(s) de R$ 20.00\n%d nota(s) de R$ 10.00\n%d nota(s) de R$ 5.00\n%d nota(s) de R$ 2.00\nMOEDAS:\n%d MOEDAS(s) de R$ 1.00\n%d MOEDAS(s) de R$ 0.50\n%d MOEDAS(s) de R$ 0.25\n%d MOEDAS(s) de R$ 0.10\n%d MOEDAS(s) de R$ 0.05\n%d MOEDAS(s) de R$ 0.01\n", contador100, contador50, contador20, contador10, contador5, contador2, contador1, contador0_50, contador0_25, contador0_10, contador0_05, contador0_01);	
 	return 0;
 }
 
-//Wrong answer (90%)
+//Time limit exceeded
