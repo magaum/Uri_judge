@@ -11,6 +11,14 @@ exemplo:
 
 gcc desafio2_area.c -o desafio2_area
 
+### compilar usando a biblioteca math ####
+
+gcc [nome do arquivo.extensão do arquivo] -o [nome de saída do arquivo] -lm
+
+exemplo:
+
+gcc desafio2_area.c -o desafio2_area -lm
+
 ### executar arquivo ###
 
 ./[nome do arquivo]
