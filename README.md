@@ -12,7 +12,7 @@ gcc [nome do arquivo.extensão do arquivo]
 
 gcc desafio2_area.c
 
-A saída o será um arquivo chamado ### a.out ###, é um padrão que o gcc utiliza. Para que o arquivo saia com outro nome é necessário colocar ### -o ### como no exemplo abaixo:
+A saída o será um arquivo chamado "a.out", é um padrão que o gcc utiliza. Para que o arquivo saia com outro nome é necessário colocar "-o" como no exemplo abaixo:
 
 gcc [nome do arquivo.extensão do arquivo] -o [nome de saída do arquivo]
 
@@ -20,7 +20,7 @@ gcc [nome do arquivo.extensão do arquivo] -o [nome de saída do arquivo]
 
 gcc desafio2_area.c -o desafio2_area
 
-A saída será um arquivo chamado ### desafio2_area ###
+A saída será um arquivo chamado "desafio2_area"
 
 ### compilar usando a biblioteca math ####
 
@@ -60,12 +60,12 @@ gdb desafio2_area
 
 Enter repete o último comando digitado
 
-start ou r - Inicia o programa
+start ou r  -  Inicia o programa
 
-display [variável] - Exibe o valor da variável, exemplo: "display x" o valor da variável x será exibido deste ponto em diante até o fim da execução do código
+display [variável]  -  Exibe o valor da variável, exemplo: "display x" o valor da variável x será exibido deste ponto em diante até o fim da execução do código
 
-break ou b - Coloca um breakpoint no código
+break ou b  -  Coloca um breakpoint no código
 
-next ou n - Vai para a próxima linha do código
+next ou n  -  Vai para a próxima linha do código
 
-Ctrl+d ou q - Fecha o GDB
+Ctrl+d ou q  -  Fecha o GDB
